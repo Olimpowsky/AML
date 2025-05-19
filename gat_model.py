@@ -8,6 +8,7 @@ from torch_geometric.nn import GATConv
 from sklearn.model_selection import TimeSeriesSplit
 from sklearn.metrics import f1_score
 
+#.
 features = pd.read_csv("elliptic_txs_features.csv", header=None)
 classes  = pd.read_csv("elliptic_txs_classes.csv")
 edges    = pd.read_csv("elliptic_txs_edgelist.csv")
